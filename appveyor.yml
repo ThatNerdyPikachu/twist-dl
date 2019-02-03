@@ -39,7 +39,6 @@ install:
   - set PATH=%PATH%;C:\Users\appveyor\.cargo\bin
   - rustc -Vv
   - cargo -V
-  - rustup componenet add clippy
 
 # TODO This is the "test phase", tweak it as you see fit
 test_script:
@@ -49,8 +48,6 @@ test_script:
       cargo build --target %TARGET% --release &&
       cargo test --target %TARGET% &&
       cargo test --target %TARGET% --release &&
-      cargo clippy --target %TARGET% &&
-      cargo clippy --target %TARGET% --release &&
       cargo run --target %TARGET% &&
       cargo run --target %TARGET% --release
     )
