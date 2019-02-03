@@ -1,0 +1,15 @@
+[package]
+name = "twist-dl"
+version = "1.0.0"
+authors = ["Pika <pika@thom.guide>"]
+edition = "2018"
+
+[dependencies]
+reqwest = "0.9.9"
+serde = "1.0.86"
+serde_derive = "1.0.86"
+serde_json = "1.0.38"
+base64 = "0.10.1"
+md5 = "0.6.1"
+block-modes = "0.3.1"
+aes = "0.3.2"

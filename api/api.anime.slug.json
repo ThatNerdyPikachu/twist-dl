@@ -1,0 +1,197 @@
+{
+  "id": 203,
+  "title": "07-Ghost",
+  "alt_title": null,
+  "season": 1,
+  "ongoing": 0,
+  "description": "Set in a gothic fantasy world, this is the story of Teito Klein, an orphaned slave who became the top military academy student. However, an unexpected turn of events left him pursued by the forces of the Barsburg Empire. Now an escaping convict, Teito's sheltered by a church and its law of sanctuary. Here, he discovered many mysteries surrounding himself, the church, and the Empire itself. The fact that he might be connected to a dethroned king and the mystical stone of god, \"The Eye of Mikhael\", made him the target of the empire more than ever. Fortunately the church is under the mythical 7 Ghost protection. But who are the Ghosts really? Will Teito be free from the military's clutch, and what of his said mission to uncover the history. And who is the military's Chief-of-Staff Ayanami exactly? Teito's future seems to have spiraled into an unexpectedly perilous path.\r\n[Source: ANN]",
+  "hb_id": 4135,
+  "created_at": "2016-08-12 00:56:52",
+  "updated_at": "2016-08-14 12:02:47",
+  "hidden": 0,
+  "mal_id": null,
+  "slug": {
+    "id": 203,
+    "slug": "07-ghost",
+    "anime_id": 203,
+    "created_at": "2016-08-12 00:56:52",
+    "updated_at": "2016-08-12 00:56:52"
+  },
+  "episodes": [
+    {
+      "id": 11670,
+      "number": 1,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:12",
+      "updated_at": "2016-08-20 12:33:12"
+    },
+    {
+      "id": 11671,
+      "number": 2,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:12",
+      "updated_at": "2016-08-20 12:33:12"
+    },
+    {
+      "id": 11672,
+      "number": 3,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:12",
+      "updated_at": "2016-08-20 12:33:12"
+    },
+    {
+      "id": 11673,
+      "number": 4,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11674,
+      "number": 5,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11675,
+      "number": 6,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11676,
+      "number": 7,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11677,
+      "number": 8,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11678,
+      "number": 9,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11679,
+      "number": 10,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11680,
+      "number": 11,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11681,
+      "number": 12,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11682,
+      "number": 13,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11683,
+      "number": 14,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11684,
+      "number": 15,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11685,
+      "number": 16,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11686,
+      "number": 17,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11687,
+      "number": 18,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11688,
+      "number": 19,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11689,
+      "number": 20,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11690,
+      "number": 21,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11691,
+      "number": 22,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11692,
+      "number": 23,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11693,
+      "number": 24,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    },
+    {
+      "id": 11694,
+      "number": 25,
+      "anime_id": 203,
+      "created_at": "2016-08-20 12:33:13",
+      "updated_at": "2016-08-20 12:33:13"
+    }
+  ]
+}
