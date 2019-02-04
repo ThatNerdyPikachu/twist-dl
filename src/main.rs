@@ -17,6 +17,9 @@ const ACCESS_TOKEN: &str = "1rj2vRtegS8Y60B3w3qNZm5T2Q0TN2NR";
 
 const KEY: &[u8; 35] = b"k8B$B@0L8D$tDYHGmRg98sQ7!%GOEGOX27T";
 
+// https://stackoverflow.com/a/31976060
+const BLACKLISTED_CHARS: &str = "<>:\"/\\|?*";
+
 type Aes256Cbc = Cbc<Aes256, Pkcs7>;
 
 #[derive(Deserialize, Clone)]
@@ -155,7 +158,17 @@ fn get_queue(list: &[Anime]) -> Vec<Anime> {
     queue
 }
 
-// https://gitlab.com/ao/plugin.video.twistmoe/blob/master/twist.py#L46 (thanks ave~!)
+fn get_safe_directory_name(s: &str) -> String {
+    let mut safe = String::new();
+
+    for c in BLACKLISTED_CHARS.split("") {
+        safe = s.replace(c, "");
+    }
+
+    safe
+}
+
+// https://gitlab.com/ao/plugin.video.twistmoe/blob/master/twist.py#L46
 fn derive_key_and_iv(
     password: &[u8; 35],
     salt: &[u8],
@@ -224,7 +237,7 @@ fn main() {
             .expect("failed to serialize response");
 
         if !Path::new(&format!("Anime/{}", a.title)).exists() {
-            fs::create_dir_all(Path::new(&format!("Anime/{}", a.title)))
+            fs::create_dir_all(Path::new(&format!("Anime/{}", get_safe_directory_name(&a.title))))
                 .expect("failed to create directory");
         }
 
@@ -249,7 +262,7 @@ fn main() {
             ))
             .expect("failed to make request");
 
-            let mut file = File::create(format!("Anime/{}/{}.mp4", a.title, e.number))
+            let mut file = File::create(format!("Anime/{}/{}.mp4", get_safe_directory_name(&a.title), e.number))
                 .expect("failed to create file");
 
             io::copy(&mut response, &mut file).expect("failed to copy response to file");
