@@ -237,8 +237,11 @@ fn main() {
             .expect("failed to serialize response");
 
         if !Path::new(&format!("Anime/{}", a.title)).exists() {
-            fs::create_dir_all(Path::new(&format!("Anime/{}", get_safe_directory_name(&a.title))))
-                .expect("failed to create directory");
+            fs::create_dir_all(Path::new(&format!(
+                "Anime/{}",
+                get_safe_directory_name(&a.title)
+            )))
+            .expect("failed to create directory");
         }
 
         for e in episodes {
@@ -262,8 +265,12 @@ fn main() {
             ))
             .expect("failed to make request");
 
-            let mut file = File::create(format!("Anime/{}/{}.mp4", get_safe_directory_name(&a.title), e.number))
-                .expect("failed to create file");
+            let mut file = File::create(format!(
+                "Anime/{}/{}.mp4",
+                get_safe_directory_name(&a.title),
+                e.number
+            ))
+            .expect("failed to create file");
 
             io::copy(&mut response, &mut file).expect("failed to copy response to file");
         }
