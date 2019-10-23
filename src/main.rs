@@ -168,7 +168,7 @@ fn get_safe_directory_name(s: &str) -> String {
     safe
 }
 
-// https://gitlab.com/ao/plugin.video.twistmoe/blob/master/twist.py#L46
+// https://gitlab.com/a/plugin.video.twistmoe/blob/master/twist.py#L46
 fn derive_key_and_iv(
     password: &[u8; 35],
     salt: &[u8],
