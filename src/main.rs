@@ -15,7 +15,7 @@ use std::str;
 
 const ACCESS_TOKEN: &str = "1rj2vRtegS8Y60B3w3qNZm5T2Q0TN2NR";
 
-const KEY: &[u8; 35] = b"k8B$B@0L8D$tDYHGmRg98sQ7!%GOEGOX27T";
+const KEY: &[u8; 35] = b"LXgIVP&PorO68Rq7dTx8N^lP!Fa5sGJ^*XK";
 
 // https://stackoverflow.com/a/31976060
 const BLACKLISTED_CHARS: &str = "<>:\"/\\|?*";
