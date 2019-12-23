@@ -202,6 +202,11 @@ fn main() {
     if env::var("CI").is_ok() {
         exit(0);
     }
+    
+    if env::var("nyaa").is_ok() {
+            println!("nyaa");
+            exit(0);
+    }
 
     let mut headers = HeaderMap::new();
     headers.insert(
