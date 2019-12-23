@@ -1,3 +1,5 @@
+# NOTICE: This tool is no longer actively maintained. I don't care about anyone forking, but please abide by the license. Thank you!
+
 # twist-dl
 
 anime downloader, powered by [twist.moe](https://twist.moe)
